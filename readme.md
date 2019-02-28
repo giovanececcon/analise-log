@@ -48,7 +48,7 @@ De seu terminal, dentro do subdiretório vagrant, execute o comando `vagrant up`
 Quando `vagrant up` terminar de executar, você terá eu shell prompt de volta. Neste ponto, você pode executar `vagrant ssh` para logar eu seu Linux VM recentemente instalado!
 
 #### Baixando os dados
-Em seguida, baixe os [dados aqui](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Você precisará descompactar este arquivo após o download. O arquivo dentro é chamado de newsdata.sql. Coloque este arquivo no diretório vagrant que é compartilhado com a máquina virtual, juntamente com o arquivo main.py.
+Em seguida, baixe os [dados aqui](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Você precisará descompactar este arquivo após o download. O arquivo dentro é chamado de `newsdata.sql`. Coloque este arquivo no diretório `vagrant` que é compartilhado com a máquina virtual, juntamente com o arquivo `main.py`.
 
 ### Próximos passos
 

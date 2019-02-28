@@ -40,11 +40,11 @@ Existem algumas maneiras diferentes para você baixar a configuração da VM.
 Você pode baixar e extrair este arquivo: [FSND-Virtual-Machine.zip](https://d17h27t6h515a5.cloudfront.net/topher/2017/June/5948287e_fsnd-virtual-machine/fsnd-virtual-machine.zip) Isso lhe dará um diretório chamado FSND-Virtual-Machine. 
 Ele pode ser localizado dentro de sua pasta de Downloads.
 
+De qualquer forma, você vai acabar com um novo diretório contendo os arquivos da VM. Mude para este diretório no seu terminal com cd. Dentro, você encontrará outro diretório chamado vagrant. Altere o diretório para o diretório vagrant.
 
+#### Iniciando a máquina virtual
 
-De qualquer forma, você vai acabar com um novo diretório contendo os arquivos da VM. Mude para este diretório no seu terminal com cd. Dentro, você encontrará outro diretório chamado vagrant. Altere o diretório para o diretório vagrant:
-
-
+De seu terminal, dentro do subdiretório vagrant, execute o `comando vagrant up`. Isso fará com que Vagrant baixe o sistema operacional Linux e instale. Isto pode demorar um pouco (muitos minutos) dependendo do quão rápida é sua conexão de Internet.
 
 
 

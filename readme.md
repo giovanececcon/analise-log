@@ -9,7 +9,7 @@ Giovane Ceccon
 
 ## Para que serve o *analise-log*?
 
-É um programa escrito em Python para buscar respostar dentro de um banco de dados, as perguntas ja estão pré-definidas, 
+É um programa escrito em Python para buscar respostas dentro de um banco de dados, as perguntas ja estão pré-definidas, 
 basta o usuario executar o arquivo python e as respostas apareceram no console.
 
 ## Como utilizar o *analise-log*?

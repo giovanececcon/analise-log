@@ -14,9 +14,9 @@ basta o usuario executar o arquivo python e as respostas apareceram no console.
 
 ## Como utilizar o *analise-log*?
 
-###PRÉ-REQUISITOS:
+### PRÉ-REQUISITOS:
 
-####Instale o VirtualBox
+#### Instale o VirtualBox
 
 VirtualBox é o software que na verdade executa a máquina virtual. Você pode baixá-lo no virtualbox.org, aqui. 
 Instale o plataform package para seu sistema operacional. Você não precisa do pacote de extensão ou do SDK. 
@@ -26,14 +26,14 @@ Usuários Ubuntu: Se você estiver executando Ubuuntu 14.04 instale o VirtualBox
 Devido a um bug reportado, instalar o VirtualBox a partir do site pode desinstalar outros softwares que você precisa.
 
 
-####Instale o Vagrant
+#### Instale o Vagrant
 Vargrant é o software que configura a VM e permite que você compartilhe arquivos entre seu computador host e o sistema de arquivos da VM.
 Baixe no vagrantup.com. Instale a versão de seu sistema operacional.
 
 Usuários Windows: O instalador pode lhe pedir para dar permissões de rede ao Vagrant ou para fazer uma exceção no firewall. 
 Certifique-se de permitir isto.
 
-####Download a configuração da VM
+#### Download a configuração da VM
 
 Existem algumas maneiras diferentes para você baixar a configuração da VM.
 

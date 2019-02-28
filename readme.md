@@ -47,13 +47,12 @@ De seu terminal, dentro do subdiretório vagrant, execute o comando `vagrant up`
 
 Quando `vagrant up` terminar de executar, você terá eu shell prompt de volta. Neste ponto, você pode executar `vagrant ssh` para logar eu seu Linux VM recentemente instalado!
 
+#### Baixando os dados
+Em seguida, baixe os [dados aqui](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Você precisará descompactar este arquivo após o download. O arquivo dentro é chamado de newsdata.sql. Coloque este arquivo no diretório vagrant que é compartilhado com a máquina virtual, juntamente com o arquivo main.py.
 
 ### Próximos passos
 
-Agora basta colocar o arquivo
-A partir do arquivo `main.py`  
+Depois de iniciar a Máquina Virtual, basta executar o arquivo `main.py` utilizando o comando `python main.py` e os resultados aparecerão no seu terminal.
 
 
-#### Utilizando Python 3
-Ao executar o arquivo `centro_de_entreterimento.py`, será gerado um HTML e ele será aberto automaticamente no seu navegador padrão. Então é só navegar no seu site com seus filmes preferidos e assistir seus respectivos trailers.
 

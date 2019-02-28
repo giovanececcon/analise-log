@@ -25,10 +25,9 @@ Você não precisa iniciar o VirtualBox após instalá-lo; Vagrant vai fazer iss
 Usuários Ubuntu: Se você estiver executando Ubuuntu 14.04 instale o VirtualBox usando o Ubuntu Software Center em vez disso. 
 Devido a um bug reportado, instalar o VirtualBox a partir do site pode desinstalar outros softwares que você precisa.
 
-
 #### Instale o Vagrant
 Vargrant é o software que configura a VM e permite que você compartilhe arquivos entre seu computador host e o sistema de arquivos da VM.
-Baixe no vagrantup.com. Instale a versão de seu sistema operacional.
+Baixe no [vagrantup.com.](https://www.vagrantup.com/downloads.html) Instale a versão de seu sistema operacional.
 
 Usuários Windows: O instalador pode lhe pedir para dar permissões de rede ao Vagrant ou para fazer uma exceção no firewall. 
 Certifique-se de permitir isto.
@@ -44,10 +43,14 @@ De qualquer forma, você vai acabar com um novo diretório contendo os arquivos 
 
 #### Iniciando a máquina virtual
 
-De seu terminal, dentro do subdiretório vagrant, execute o `comando vagrant up`. Isso fará com que Vagrant baixe o sistema operacional Linux e instale. Isto pode demorar um pouco (muitos minutos) dependendo do quão rápida é sua conexão de Internet.
+De seu terminal, dentro do subdiretório vagrant, execute o comando `vagrant up`. Isso fará com que Vagrant baixe o sistema operacional Linux e instale. Isto pode demorar um pouco (muitos minutos) dependendo do quão rápida é sua conexão de Internet.
+
+Quando `vagrant up` terminar de executar, você terá eu shell prompt de volta. Neste ponto, você pode executar `vagrant ssh` para logar eu seu Linux VM recentemente instalado!
 
 
+### Próximos passos
 
+Agora basta colocar o arquivo
 A partir do arquivo `main.py`  
 
 
